@@ -1,0 +1,43 @@
+body {
+    height: 800px;
+}
+
+.central-cad {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.titulo-cad {
+    text-align: center;
+}
+
+.titulo-cad h1 {
+    font-size: 45px;
+    font-weight: 900;
+}
+
+.titulo-cad p {
+    font-size: 22px;
+    margin-top: 15px;
+}
+
+.form-cad {
+    width: 1000px;
+    height: 500px;
+    background-color: #fffdfd;
+    margin-left: 40px;
+    margin-top: 40px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 12px;
+    padding: 80px 40px 40px 40px;
+}
+
+.form-cad h3 {
+    font-size: 25px;
+}
+
+form {
+    margin-top: 30px;
+
+}

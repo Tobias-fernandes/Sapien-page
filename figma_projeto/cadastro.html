@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de cadastro</title>
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="cadastro.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Área do cabeçalho do site -->
+
+    <nav>
+        <div class="container-logo">
+            <div class="logo">
+                <img src="img/Sapiens-logo.png" alt="imagem da logo" id="logo-site">
+            </div> <!--logo-->
+            <div class="opcoes">
+                <a href="contato.html" target="_blank">Contate-nos</a>
+                <button id="btn-login">Iniciar sessão</button>
+                <button id="btn-cadastro">Cadastrar-se</button>
+                </div>
+        </div> <!--container-logo-->
+    </nav>
+    
+    <!-- Área do cabeçalho do site -->
+
+    <main>
+        <div class="central-cad">
+            <div class="container-cad">
+                <div class="titulo-cad">
+                    <h1>Cadastre-se na SAPIENS</h1>
+                    <p>O catálogo da sua biblioteca está disponível em qualquer lugar, a qualquer hora.</p>
+                </div> <!--titulo-cad-->
+                <div class="form-cad">
+                    <h3>Informações da conta:</h3>
+                    <form>
+                        <div class="form-linha1">
+                            <label>Primeiro Nome</label>
+                            <input type="text" name="name" autocomplete="off" placeholder="Primeiro Nome">
+
+                            <label>Último Nome</label>
+                            <input type="text" name="surname" autocomplete="off" placeholder="Último Nome">
+                        </div> <!--form-linha1-->
+                        <div class="form-linha2">
+                            <label>E-mail</label>
+                            <input type="email" name="email" placeholder="E-mail">
+
+                            <label>Senha</label>
+                            <input type="password" name="password" placeholder="Senha">
+                        </div> <!--form-linha2-->
+                        <div class="form-linha3">
+                            <label>País</label>
+                            <select name="pais">
+                            <option value="brasil">Brasil</option>
+                            <option value="">Portugal</option>
+                            <option value="">Espanha</option>
+                            <option value="">Outro</option>
+                            </select>
+                        </div> <!--form-linha3-->
+                        <input type="submit" value="Iniciar minha Biblioteca">
+                    </form>
+                </div> <!--form-cad-->
+            </div> <!--container-cad-->
+        </div> <!--central-cad-->
+
+
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

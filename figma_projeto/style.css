@@ -1,0 +1,241 @@
+main > .frase-principal {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.frase-principal > h1 {
+    margin-top: 20vh;
+    font-weight: 900;
+    font-size: 50px;
+    height: 12vh;
+}
+
+.frase-principal p {
+    margin-top: 10px;
+    font-size: 18px
+}
+
+.frase-principal button {
+    margin-top: 25px;
+}
+
+.botao-comecar {
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    background-color: #4BC1D2;
+    padding: 7px 30px;
+    font-weight: 700;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.criar-compartilhar {
+    margin-top: 270px;
+    background-color: #CFF2F5;
+    text-align: center;
+}
+
+.imagem-c4 img {
+    width: 60%;
+    margin-top: -120px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.criar-compartilhar h1 {
+    margin-top: 55px;
+    font-weight: 900;
+    font-size: 45px;
+}
+
+.p-c4 {
+    margin-top: 30px;
+}
+
+.p-c4 p {
+    text-align: center;
+    max-width: 65%;
+    margin: 0 auto;
+    line-height: 30px;
+}
+
+.criar-compartilhar button {
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+                /* outra parte */
+
+.margens-laterais {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+
+
+.automatic-data {
+    display: flex;
+    align-items: center;
+    margin-top: 150px;
+
+}
+
+.ad-colunaEsq {
+    text-align: start;
+    max-width: 40%;
+    margin: 0 auto;
+}
+
+.ad-colunaEsq p {
+    margin-top: 25px;
+    line-height: 30px;
+}
+
+.automatic-data img{
+    width: 50%;
+}
+
+.cloud-sync {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.cloud-sync img{
+    width: 55%;
+    height: 350px;
+}
+
+.cs-colunaDir {
+    margin-left: 20px;
+}
+
+.cs-colunaDir p{
+    margin-top: 25px;
+    line-height: 30px;
+}
+
+.mixed-media {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.mixed-media img{
+    width: 50%;
+    height: 350px;
+}
+
+.mm-colunaEsq p {
+    margin-top: 25px;
+    line-height: 30px;
+}
+
+.consumidor-feliz {
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.consumidor-feliz img {
+    margin-bottom: -135px;
+}
+
+.container-cf {
+    background-color: #add8e6;
+    height: 400px;
+    width: 900px;
+    text-align: center;
+}
+
+.container-cf h1{
+    margin-top: 130px;
+}
+
+.container-cf h1 {
+    margin-bottom: 20px;
+    font-weight: 900;
+}
+
+.consumidor-feliz img {
+    width: 15%;
+    margin-right: 25px;
+}
+
+.sponsorship {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.sponsorship h1 {
+    margin-bottom: 80px;
+    font-weight: 800;
+}
+
+.img-sponsor img {
+    width: 11%;
+}
+
+footer {
+    margin-top: 120px;
+    height: 500px;
+    background-color: #03151E;
+    color: #fff;
+    text-align: center;
+}
+
+.espacar {
+    height: 120px;
+}
+
+.container-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+
+.footer-left {
+    display: flex;
+}
+
+.box {
+    margin-left: 40px;
+}
+.box h3 {
+    color: #4BC1D2;
+}
+
+.box li{
+    list-style: none;
+    margin-top: 17px;
+}
+
+.box li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-right {
+    text-align: start;
+    margin-left: 100px;
+}
+
+.footer-right h1 {
+    text-transform: uppercase;
+}
+
+.footer-right p {
+    margin-top: 20px;
+    justify-content: start;
+    line-height: 32px;
+    padding-right: 80px;
+}
+
+footer p {
+    margin-top: 75px;
+}

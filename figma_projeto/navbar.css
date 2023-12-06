@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container-logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.logo img {
+    cursor: pointer;
+}
+
+.opcoes {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.opcoes a {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.opcoes button {
+    background-color: #000;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    padding: 8px 30px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+}
