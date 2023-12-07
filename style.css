@@ -3,8 +3,6 @@ main > .frase-principal {
     margin-top: 50px;
 }
 
-/* ssssssss */
-
 .frase-principal > h1 {
     margin-top: 20vh;
     font-weight: 900;
@@ -39,7 +37,7 @@ main > .frase-principal {
 }
 
 .imagem-c4 img {
-    width: 60%;
+    width: 1000px;
     margin-top: -120px;
     border-radius: 15px;
     border: none;
@@ -96,7 +94,7 @@ main > .frase-principal {
 }
 
 .automatic-data img{
-    width: 50%;
+    width: 600px;
 }
 
 .cloud-sync {
@@ -106,7 +104,7 @@ main > .frase-principal {
 }
 
 .cloud-sync img{
-    width: 55%;
+    width: 670px;
     height: 350px;
 }
 
@@ -126,7 +124,7 @@ main > .frase-principal {
 }
 
 .mixed-media img{
-    width: 50%;
+    width: 600px;
     height: 350px;
 }
 
@@ -240,4 +238,19 @@ footer {
 
 footer p {
     margin-top: 75px;
+}
+
+@media screen and (max-width: 900px){
+    
+    .frase-principal p {
+        margin-top: 50px;
+    }
+
+}
+
+@media screen and (max-width: 1200px){
+    
+    .imagem-c4 img {
+        max-width: 80%;
+    }
 }

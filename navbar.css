@@ -5,6 +5,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 .container-logo {
     display: flex;
     justify-content: space-around;
@@ -38,4 +42,21 @@
     cursor: pointer;
     font-size: 18px;
     font-weight: 600;
+}
+
+.botao-responsivo {
+    display: none;
+}
+
+@media screen and (max-width: 900px){
+    
+    .opcoes {
+        display: none;
+    }
+
+    .botao-responsivo {
+        display: flex;
+        cursor: pointer;
+    }
+
 }
